@@ -27,7 +27,7 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
 const dateFormat = require('dateformat'); 
 const pretty = require('pretty-ms') 
-const prefix = 'B';
+const prefix = 'Bad.';
 var table = require('table').table
 var ti={}  
 ,spee={}
@@ -35,7 +35,7 @@ var ti={}
 
 client.on('ready', function(){
     var ms = 60000 ;
-    var setGame = ['Bhelp','Type Bhelp'];
+    var setGame = ['Bad.help','Bad.Type Bad.help'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -743,7 +743,7 @@ let embed = new Discord.RichEmbed()
      .setAuthor(message.author.username, message.author.avatarURL)
      .setDescription(':mailbox_with_mail: تم ارسال الرسالة الى صاحب البوت بنجاح')
      .setThumbnail(message.author.avatarURL)
-     .setFooter("By : 3bker")
+     .setFooter("By : WESO")
                                                 
 
 message.channel.send(embed);
@@ -3003,7 +3003,7 @@ client.on('guildMemberAdd', member => {
                   .addField("Name:",`<@` + `${member.id}` + `>`, true)
                       
                                      .addField(' Server', `${member.guild.name}`,true)
-.setFooter(member.user.username,'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')  
+.setFooter(member.user.username,'https://media.discordapp.net/attachments/572749417665527808/574718521104269352/file.jpghttps://media.discordapp.net/attachments/572749417665527808/574718521104269352/file.jpghttps://media.discordapp.net/attachments/572749417665527808/574718521104269352/file.jpg')  
 
                                        
         .setTimestamp()
